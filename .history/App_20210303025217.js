@@ -57,6 +57,15 @@ const styles = StyleSheet.create({
     input:{
       width:'80%' ,borderColor:'black' , borderWidth:1 , padding:10 , borderRadius:5
     },
+    listItem:{
+      padding:10,
+      marginVertical:10,
+      borderColor:'black',
+      borderWidth:1,
+      borderRadius:5,
+      color: 'white',
+      fontWeight:'900',
+    },
     buttonContainer:{
       width: '60%',
       flexDirection:'row',

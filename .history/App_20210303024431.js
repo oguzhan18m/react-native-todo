@@ -33,8 +33,8 @@ export default function App() {
       <View style={styles.inputContainer}>
         <TextInput placeholder='Course Goal' style={styles.input} onChangeText={goalInputHandler} />
         <View style={styles.buttonContainer}>
-        <Button style={{width:50}} title='CANCEL' color='red' onPress={cancelAddItem} />
-        <Button style={{width:50 , padding:10 }} title='ADD'  onPress={addGoalHandler} />
+        <Button style={{width:'48%'}} title='CANCEL' color='red' onPress={cancelAddItem} />
+        <Button style={{width:'48%'}} title='ADD'  onPress={addGoalHandler} />
         </View>
       </View>
         </Modal>
@@ -57,11 +57,20 @@ const styles = StyleSheet.create({
     input:{
       width:'80%' ,borderColor:'black' , borderWidth:1 , padding:10 , borderRadius:5
     },
+    listItem:{
+      padding:10,
+      marginVertical:10,
+      backgroundColor:'lightslategrey',
+      borderColor:'black',
+      borderWidth:1,
+      borderRadius:5,
+      color: 'white',
+      fontWeight:'900',
+    },
     buttonContainer:{
-      width: '60%',
+      width: '100%',
       flexDirection:'row',
       alignItems:'center',
       justifyContent:'space-between',
-      marginTop:20,
     }
 });
